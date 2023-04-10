@@ -1,254 +1,99 @@
-Contribution: 2022-06-14 00:00
+# MERN CRUD
 
-Contribution: 2022-06-16 00:00
+A simple records system using MongoDB, Express.js, React.js, and Node.js with real-time Create, Read, Update, and Delete operations using Socket.io. REST API was implemented on the back-end. Semantic UI React was used for the UI.
 
-Contribution: 2022-06-16 00:01
+![Node Version](https://img.shields.io/badge/node-v12.16.3-yellowgreen.svg)
+![NPM Version](https://img.shields.io/badge/npm-v6.14.4-blue.svg)
+![MongoDB Version](https://img.shields.io/badge/mongodb-v3.6.12-blue.svg)
+![Mongoose Version](https://img.shields.io/badge/mongoose-v5.9.13-blue.svg)
+![Language: American English](https://img.shields.io/badge/language-american%20english-red.svg)
 
-Contribution: 2022-06-16 00:02
 
-Contribution: 2022-06-16 00:03
+Demo: [https://mern-crud.herokuapp.com/](https://mern-crud.herokuapp.com/)
 
-Contribution: 2022-06-16 00:04
+![MERN CRUD Screenshot](screenshot.png)
 
-Contribution: 2022-06-16 00:05
+## Show Some :heart: :wave:
+[![GitHub Stars](https://img.shields.io/github/stars/cefjoeii/mern-crud.svg?style=social&label=Star)](https://github.com/cefjoeii/mern-crud)
+[![GitHub Forks](https://img.shields.io/github/forks/cefjoeii/mern-crud.svg?style=social&label=Fork)](https://github.com/cefjoeii/mern-crud/fork)
+[![GitHub Watchers](https://img.shields.io/github/watchers/cefjoeii/mern-crud.svg?style=social&label=Watch)](https://github.com/cefjoeii/mern-crud)
 
-Contribution: 2022-06-16 00:06
+[![Follow on GitHub](https://img.shields.io/github/followers/cefjoeii.svg?style=social&label=Follow)](https://github.com/cefjoeii)
+[![Follow on Facebook](https://img.shields.io/badge/Follow%20%40cefjoeii%20on-Facebook-%233C5A99.svg)](https://facebook.com/cefjoeii)
+[![Follow on Instagram](https://img.shields.io/badge/Follow%20%40cefjoeii%20on-Instagram-C13584.svg)](https://instagram.com/cefjoeii)
+[![Follow on Twitter](https://img.shields.io/twitter/follow/cefjoeii.svg?style=social)](https://twitter.com/cefjoeii)
 
-Contribution: 2022-06-16 00:07
+## Instructions
 
-Contribution: 2022-06-16 00:08
+Fork, then download or clone the repo.
+```bash
+git clone https://github.com/<your-user-name>/mern-crud.git
+```
 
-Contribution: 2022-06-20 00:00
 
-Contribution: 2022-06-24 00:00
+*Make sure MongoDB service is running.*
 
-Contribution: 2022-06-24 00:01
+The *config* folder contains a file named *db.js*. Before running locally, change the value of db as seen in the code below.
+```js
+module.exports = {
+  db: 'mongodb://localhost/mern-crud'
+};
+```
 
-Contribution: 2022-06-24 00:02
+For the **back-end**, install the dependencies once via the terminal.
+```bash
+npm install
+```
 
-Contribution: 2022-06-24 00:03
+Run the *main server*. It listens on port 3000.
+```bash
+CORS=1 node server
+```
+View it on the browser.
 
-Contribution: 2022-06-24 00:04
+<br>
 
-Contribution: 2022-06-27 00:00
+If you want to configure the **front-end**, go to *react-src* folder via the terminal.
 
-Contribution: 2022-06-27 00:01
+```bash
+cd react-src
+```
 
-Contribution: 2022-06-27 00:02
+Install the dependencies required by React once.
+```bash
+npm install
+```
 
-Contribution: 2022-06-27 00:03
+Run the *development server* for React. It listens on port 4200.
+```bash
+REACT_APP_API_URL=http://localhost:3000 npm start
+```
 
-Contribution: 2022-06-27 00:04
+To make a production build, simply run on *react-src* folder via the terminal.
+```bash
+npm run build
+```
 
-Contribution: 2022-06-27 00:05
+It re-creates a folder named *public* on the root directory. This is where the production-ready front-end of the web application resides.
 
-Contribution: 2022-06-27 00:06
+## Docker
+```bash
+docker-compose up
+```
 
-Contribution: 2022-06-27 00:07
 
-Contribution: 2022-06-30 00:00
+## Contribute
+Feel free to help out as I may have other work/life commitments. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Contribution: 2022-06-30 00:01
+## To Do
 
-Contribution: 2022-06-30 00:02
+- [x] Create
+- [x] Read
+- [x] Update
+- [x] Delete
+- [x] Real-time broadcast using Socket.io
+- [x] Deploy in Heroku
+- [x] Front-end validation (HTML)
 
-Contribution: 2022-07-01 00:00
-
-Contribution: 2022-07-01 00:01
-
-Contribution: 2022-07-01 00:02
-
-Contribution: 2022-07-01 00:03
-
-Contribution: 2022-07-01 00:04
-
-Contribution: 2022-07-01 00:05
-
-Contribution: 2022-07-01 00:06
-
-Contribution: 2022-07-01 00:07
-
-Contribution: 2022-07-04 00:00
-
-Contribution: 2022-07-04 00:01
-
-Contribution: 2022-07-04 00:02
-
-Contribution: 2022-07-04 00:03
-
-Contribution: 2022-07-04 00:04
-
-Contribution: 2022-07-04 00:05
-
-Contribution: 2022-07-04 00:06
-
-Contribution: 2022-07-04 00:07
-
-Contribution: 2022-07-05 00:00
-
-Contribution: 2022-07-05 00:01
-
-Contribution: 2022-07-05 00:02
-
-Contribution: 2022-07-05 00:03
-
-Contribution: 2022-07-05 00:04
-
-Contribution: 2022-07-05 00:05
-
-Contribution: 2022-07-05 00:06
-
-Contribution: 2022-07-06 00:00
-
-Contribution: 2022-07-08 00:00
-
-Contribution: 2022-07-08 00:01
-
-Contribution: 2022-07-11 00:00
-
-Contribution: 2022-07-11 00:01
-
-Contribution: 2022-07-11 00:02
-
-Contribution: 2022-07-11 00:03
-
-Contribution: 2022-07-11 00:04
-
-Contribution: 2022-07-11 00:05
-
-Contribution: 2022-07-11 00:06
-
-Contribution: 2022-07-11 00:07
-
-Contribution: 2022-07-13 00:00
-
-Contribution: 2022-07-13 00:01
-
-Contribution: 2022-07-13 00:02
-
-Contribution: 2022-07-13 00:03
-
-Contribution: 2022-07-13 00:04
-
-Contribution: 2022-07-13 00:05
-
-Contribution: 2022-07-13 00:06
-
-Contribution: 2022-07-13 00:07
-
-Contribution: 2022-07-14 00:00
-
-Contribution: 2022-07-14 00:01
-
-Contribution: 2022-07-14 00:02
-
-Contribution: 2022-07-14 00:03
-
-Contribution: 2022-07-14 00:04
-
-Contribution: 2022-07-14 00:05
-
-Contribution: 2022-07-18 00:00
-
-Contribution: 2022-07-18 00:01
-
-Contribution: 2022-07-18 00:02
-
-Contribution: 2022-07-18 00:03
-
-Contribution: 2022-07-18 00:04
-
-Contribution: 2022-07-18 00:05
-
-Contribution: 2022-07-18 00:06
-
-Contribution: 2022-07-18 00:07
-
-Contribution: 2022-07-18 00:08
-
-Contribution: 2022-07-20 00:00
-
-Contribution: 2022-07-20 00:01
-
-Contribution: 2022-07-20 00:02
-
-Contribution: 2022-07-20 00:03
-
-Contribution: 2022-07-20 00:04
-
-Contribution: 2022-07-20 00:05
-
-Contribution: 2022-07-20 00:06
-
-Contribution: 2022-07-21 00:00
-
-Contribution: 2022-07-21 00:01
-
-Contribution: 2022-07-22 00:00
-
-Contribution: 2022-07-22 00:01
-
-Contribution: 2022-07-22 00:02
-
-Contribution: 2022-07-25 00:00
-
-Contribution: 2022-07-25 00:01
-
-Contribution: 2022-07-25 00:02
-
-Contribution: 2022-07-28 00:00
-
-Contribution: 2022-07-28 00:01
-
-Contribution: 2022-07-28 00:02
-
-Contribution: 2022-07-28 00:03
-
-Contribution: 2022-07-28 00:04
-
-Contribution: 2022-07-28 00:05
-
-Contribution: 2022-07-28 00:06
-
-Contribution: 2022-07-29 00:00
-
-Contribution: 2022-07-29 00:01
-
-Contribution: 2022-07-29 00:02
-
-Contribution: 2022-07-29 00:03
-
-Contribution: 2022-08-01 00:00
-
-Contribution: 2022-08-04 00:00
-
-Contribution: 2022-08-04 00:01
-
-Contribution: 2022-08-04 00:02
-
-Contribution: 2022-08-04 00:03
-
-Contribution: 2022-08-04 00:04
-
-Contribution: 2022-08-04 00:05
-
-Contribution: 2022-08-05 00:00
-
-Contribution: 2022-08-05 00:01
-
-Contribution: 2022-08-05 00:02
-
-Contribution: 2022-08-05 00:03
-
-Contribution: 2022-08-05 00:04
-
-Contribution: 2022-08-05 00:05
-
-Contribution: 2022-08-05 00:06
-
-Contribution: 2022-08-05 00:07
-
-Contribution: 2022-08-05 00:08
-
-Contribution: 2022-08-05 00:09
-
+## License
+* [MIT](LICENSE)
